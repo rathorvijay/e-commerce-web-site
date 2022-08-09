@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Signika', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    height: 7ch;
+    display: flex;
+}
+#part1{
+    width:40%;
+    height: 45px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#part1>h5{
+    font-weight: lighter;
+    font-size: smaller;
+}
+#part1>h4{
+    font-size: larger;
+    padding-left: 5%;
+}
+#part2{
+    width: 9%;
+    height: 45px;
+    display: flex;
+   position: absolute;
+   right: 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav2{
+    width: 100%;
+    height: 5ch;
+    /*background-color: #000;
+    color: antiquewhite;*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: solid black ;
+    border-bottom: solid black ;
+    border-width: .1ch;
+}
+#centrenav{
+    width: 30%;
+    height: 40px;
+   /* background-color: blueviolet;
+    color:white;*/
+    display: flex;
+    align-items: flex-start;
+   justify-content: space-between;
+     font-size: small;
+     font-weight: light; 
+     padding-top: 12px;  
+}
+#nav2 h5{
+    padding-top: 9px;
+    padding-left: 3%;
+    font-size: medium;
+}
+button{
+    background-color: #000;
+    color: antiquewhite;
+    width: 8%;
+    height: 85%;
+   margin-top: 2.4px;
+   margin-right: 3.5%;
+   font-size: medium;
+}
+#bag{
+    position: absolute;
+    width: 15%;
+    height: 25%;
+    left: 10%;
+    bottom: 20%;
+}
+#flower{
+    position: absolute;
+    width: 15%;
+    height: 25%;
+    right: 3%;
+    top: 20%;
+}
+#perfume{
+    position: absolute;
+    width: 15%;
+    height: 25%;
+    right: 10%;
+    bottom: 20%;
+}
+#four{
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    left: 3%;
+    top: 20%;
+}
+#four>img{
+    width: 100%;
+    height: 100%;
+}
+#flower>img{
+    width: 100%;
+    height:100% ;
+}
+#bag>img{
+    width: 100%;
+    height: 100%;
+}
+#perfume>img{
+    width: 100%;
+    height: 100%;
+
+}
+#centre h1{
+    position: absolute;
+    left: 40%;
+    bottom: 50%;
+}
+
+#centre button{
+    background-color: #000;
+    color: antiquewhite;
+    width: 9%;
+   margin-top: 20%;
+   margin-left: 46%;
+   padding: .5%;
+}
+#centre h4{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    border: 1.5px solid #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    transform: translate(-50%,0);
+}
+#centre h4:hover{
+    background-color:black;
+    color:white;
+}
